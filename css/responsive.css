@@ -1,0 +1,35 @@
+
+/*// Medium devices (tablets, 768px and up)*/
+
+
+/*// Large devices (desktops, 992px and up)*/
+
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (max-width: 1400px) { ... }
+
+
+@media (max-width: 1200px) { ... }
+
+
+@media (max-width: 992px) { ... }
+
+
+@media (max-width: 768px) { ... }
+
+@media (max-width: 576px) {
+
+/*HEAD*/
+.desktop-view{
+	display: none;
+ }
+ .mobi-view{
+ 	display: block !important;
+ }
+ .repo_media{
+ 	display: none;
+ }
+}

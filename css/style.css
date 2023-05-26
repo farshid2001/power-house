@@ -290,8 +290,9 @@ body{
 }
 .choose ul{
 	color: white;
-	margin-left: 398px;
 	margin-top: 80px;
+    display: grid;
+    justify-content: end;
 }
 .choose li{
 	line-height: 30px;

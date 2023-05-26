@@ -124,6 +124,7 @@ body{
 .ssmedia-list ul{
 	list-style: none;
 	display: inline-flex;
+	gap: 10px;
 	margin: 0;
 	padding: 0;
 	margin-top: 20px;
@@ -309,8 +310,7 @@ body{
 /*//////carouse//////*/
 
 
-.
-{
+.carousel-position{
 	position: relative;
 }
 .carousel-absalute{
@@ -654,6 +654,9 @@ body{
 }*/
 .form-map{
 	transition: 0.3s ease;
+}
+.form-action textarea{
+	width: 100%;
 }
 
 /*//////////footer////////*/
